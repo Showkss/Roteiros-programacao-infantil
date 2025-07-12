@@ -536,3 +536,61 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
+/* CTA Section após Roteiros */
+.cta-roteiros {
+    background: linear-gradient(135deg, #10B981, #059669);
+    padding: 3rem 0;
+    margin-top: 2rem;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.cta-content {
+    max-width: 600px;
+    margin: 0 auto;
+    color: white;
+}
+
+.cta-content h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.cta-content p {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.cta-secondary {
+    background: white;
+    color: #10B981;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.cta-secondary:hover {
+    background: #F9FAFB;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsividade para CTA */
+@media (max-width: 768px) {
+    .cta-content h3 {
+        font-size: 1.5rem;
+    }
+    
+    .cta-content p {
+        font-size: 1rem;
+    }
+    
+    .cta-roteiros {
+        margin: 2rem 1rem;
+        padding: 2rem 1rem;
+    }
+}
+
